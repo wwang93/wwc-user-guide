@@ -10,14 +10,17 @@ An independent English guide for trying the AskAboutEdu WWC V0.3.1 application.
 
 ## Contents
 
-The guide introduces the current features and offers five complete examples:
+The guide introduces the current features and offers five step-by-step cases:
 reading multisyllabic words, fractions on a number line, classroom transitions,
 writing from model texts, and postsecondary advising. Each example identifies
 a recommendation in the supplied 30-guide WWC collection and includes search,
-source inspection, AI questions, adaptation, and plan export instructions.
+source inspection, conditional AI questions, adaptation, and plan export instructions.
+Each case shows the exact large recommendation title first, followed by the guide
+name below it, matching the application cards. At an AI error, participants stop
+dependent requests and continue by reading sources and writing their own plan.
 
 - `index.html`: a standalone page with 30 copyable text blocks.
-- `participant-guide.pdf`: the 13-page participant handout.
+- `participant-guide.pdf`: the 13-page participant handout, revision 2.
 - `.nojekyll`: publish the static files directly.
 
 ## Publication
@@ -33,9 +36,22 @@ has no analytics or form submission; GitHub Pages may retain standard hosting lo
 
 ## Version
 
-Prepared 19 September 2026 for AskAboutEdu V0.3.1. The five sample searches were
-checked against that version's local corpus and retrieval functions. AI answers
-and service availability may vary. The evidence ratings refer to original WWC
-recommendations, not newly proposed adaptations.
+Revision 2, 19 September 2026 (America/New_York), for AskAboutEdu V0.3.1.
+Five fresh live sessions verified the exact searches, practice/guide title mapping,
+source controls, alternate short searches, browse paths, plan saving and TXT/JSON
+exports. The PDF was rendered and reviewed on all 13 pages; all 30 copyable texts
+match between HTML and PDF.
+
+In this revision's live test, 11 AI requests produced 8 displayed answers and 3
+source-check rejections. Four dependent requests were skipped after errors, as
+the revised instructions specify. Cases 3 and 5 completed all three AI turns.
+Case 1 failed on its final follow-up; cases 2 and 4 failed on the first question.
+Their manual planning routes were verified separately and are not counted as AI
+successes. This guide revision does not fix those application failures or guarantee
+future responses. No application code or deployment was changed.
+
+AI answers and service availability may vary. Evidence ratings refer to original
+WWC recommendations, not newly proposed adaptations. Live test exports are
+synthetic and are not included in this public repository.
 
 Guide content and source references should be reviewed when the application changes.
